@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
+import crackerBarrelLogo from "@/assets/cracker-barrel-logo.png.asset.json";
 
 const OFFER_URL = "https://giftclick.org/aff_c?offer_id=4597&aff_id=13198&source=cb";
 
@@ -28,9 +29,12 @@ function Index() {
   return (
     <main className="page-glow flex min-h-screen items-start justify-center px-4 py-12 sm:py-20">
       <section className="offer-card relative w-full max-w-2xl rounded-[2rem] border border-border bg-card px-6 py-10 text-center sm:px-12">
-        <div className="mb-7 text-center">
-          <p className="font-display text-4xl font-extrabold leading-none text-primary sm:text-5xl">Cracker Barrel</p>
-          <p className="mt-1 text-sm font-semibold text-secondary-foreground">Old Country Store</p>
+        <div className="mb-7 flex justify-center">
+          <img
+            src={crackerBarrelLogo.url}
+            alt="Cracker Barrel Old Country Store"
+            className="h-auto w-full max-w-[17rem] object-contain"
+          />
         </div>
         <h1 className="font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl">
           Get Your
