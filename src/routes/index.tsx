@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
-import crackerBarrelLogo from "@/assets/cracker-barrel-logo.png.asset.json";
 
 const OFFER_URL = "https://linkthem.net/aff_c?offer_id=5048&aff_id=156143";
 
@@ -31,7 +30,7 @@ function Index() {
       <section className="offer-card relative w-full max-w-2xl rounded-[2rem] border border-border bg-card px-6 py-10 text-center sm:px-12">
         <div className="mb-7 flex justify-center">
           <img
-            src={crackerBarrelLogo.url}
+            src="/cracker-barrel-logo.png"
             alt="Cracker Barrel Old Country Store"
             className="h-auto w-full max-w-[17rem] object-contain"
           />
