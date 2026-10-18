@@ -32,7 +32,7 @@ function Index() {
           <p className="font-display text-4xl font-extrabold leading-none text-primary sm:text-5xl">Cracker Barrel</p>
           <p className="mt-1 text-sm font-semibold text-secondary-foreground">Old Country Store</p>
         </div>
-        <h1 className="font-display text-5xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl">
+        <h1 className="font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl">
           Get Your
           <span className="block text-primary">$500 Cracker Barrel</span>
           <span className="block">Gift Card</span>
