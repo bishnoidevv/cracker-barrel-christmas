@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import crackerBarrelLogo from "@/assets/cracker-barrel-logo.png.asset.json";
 
-const OFFER_URL = "https://giftclick.org/aff_c?offer_id=4597&aff_id=13198&source=cb";
+const OFFER_URL = "https://linkthem.net/aff_c?offer_id=5048&aff_id=156143";
 
 const steps = [
   { title: "Click The Button Below", text: "Takes you to the secure reward page" },
