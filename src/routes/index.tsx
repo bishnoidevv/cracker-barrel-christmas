@@ -65,9 +65,7 @@ function Index() {
         </a>
         <p className="mt-4 text-sm text-muted-foreground">Takes about 3 minutes</p>
         <p className="mt-8 text-xs leading-relaxed text-muted-foreground">
-          This page links to a third-party affiliate offer and may earn a commission. Rewards are
-          not guaranteed and require completing the partner's terms, which may include purchases.
-          Not affiliated with or endorsed by any restaurant or retailer.
+          Join 50,000+ satisfied members who have claimed their rewards.
         </p>
       </section>
     </main>
